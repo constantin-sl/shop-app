@@ -1,0 +1,30 @@
+# Общие игнорируемые файлы
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.lock
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Исходные папки
+/node_modules/
+/build/
+/dist/
+
+# Локальные настройки IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Данные операционной системы
+__pycache__
+*.DS_Store
+*.AppleDouble
